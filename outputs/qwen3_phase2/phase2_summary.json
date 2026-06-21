@@ -1,0 +1,57 @@
+{
+  "source": "outputs\\qwen3_phase1\\hidden_states.npz",
+  "conditions": [
+    "clean",
+    "no_anchor_context",
+    "low_anchor",
+    "mid_anchor",
+    "high_anchor"
+  ],
+  "best_layers": [
+    {
+      "layer": 13,
+      "cv_accuracy": 1.0,
+      "cv_auc": 1.0,
+      "mean_low_anchor_projection": 30.01786231994629,
+      "mean_mid_anchor_projection": 32.83026885986328,
+      "mean_high_anchor_projection": 38.93315505981445
+    },
+    {
+      "layer": 11,
+      "cv_accuracy": 0.9916666666666667,
+      "cv_auc": 1.0,
+      "mean_low_anchor_projection": 16.15890121459961,
+      "mean_mid_anchor_projection": 16.404844284057617,
+      "mean_high_anchor_projection": 16.839181900024414
+    },
+    {
+      "layer": 12,
+      "cv_accuracy": 0.9916666666666667,
+      "cv_auc": 1.0,
+      "mean_low_anchor_projection": 21.772066116333008,
+      "mean_mid_anchor_projection": 23.53456687927246,
+      "mean_high_anchor_projection": 26.859243392944336
+    },
+    {
+      "layer": 14,
+      "cv_accuracy": 0.9916666666666667,
+      "cv_auc": 1.0,
+      "mean_low_anchor_projection": 42.086387634277344,
+      "mean_mid_anchor_projection": 46.44306564331055,
+      "mean_high_anchor_projection": 53.983943939208984
+    },
+    {
+      "layer": 15,
+      "cv_accuracy": 0.9916666666666667,
+      "cv_auc": 1.0,
+      "mean_low_anchor_projection": 54.62276077270508,
+      "mean_mid_anchor_projection": 60.057334899902344,
+      "mean_high_anchor_projection": 68.53919219970703
+    }
+  ],
+  "notes": [
+    "cv_auc close to 1.0 means anchored and clean activations are easy to separate.",
+    "anchor_score is projection onto the learned anchor direction after centering on clean activations.",
+    "Use high-scoring layers as candidates for Phase 3 activation patching."
+  ]
+}

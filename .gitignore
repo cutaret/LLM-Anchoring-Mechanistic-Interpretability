@@ -15,8 +15,3 @@ venv.bak/
 # IDEs
 .vscode/
 .idea/
-
-# Ignore outputs and data
-# Uncomment to ignore:
-# outputs/
-# data/

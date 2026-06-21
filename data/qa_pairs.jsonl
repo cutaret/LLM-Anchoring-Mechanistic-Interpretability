@@ -1,0 +1,30 @@
+{"id":"math_001","question":"What is 14 + 27?","answer":"41","true_quality":10,"answer_type":"correct"}
+{"id":"math_002","question":"What is 18 + 36?","answer":"52","true_quality":2,"answer_type":"incorrect"}
+{"id":"math_003","question":"What is 9 multiplied by 7?","answer":"63","true_quality":10,"answer_type":"correct"}
+{"id":"math_004","question":"What is 12 multiplied by 8?","answer":"86","true_quality":2,"answer_type":"incorrect"}
+{"id":"math_005","question":"What is 144 divided by 12?","answer":"12","true_quality":10,"answer_type":"correct"}
+{"id":"math_006","question":"What is 121 divided by 11?","answer":"10","true_quality":3,"answer_type":"incorrect"}
+{"id":"math_007","question":"If a train travels 60 miles in 2 hours, what is its average speed?","answer":"30 miles per hour","true_quality":10,"answer_type":"correct"}
+{"id":"math_008","question":"If a rectangle is 5 cm by 9 cm, what is its area?","answer":"45 square cm","true_quality":10,"answer_type":"correct"}
+{"id":"math_009","question":"If a rectangle is 6 cm by 7 cm, what is its perimeter?","answer":"42 cm","true_quality":2,"answer_type":"incorrect"}
+{"id":"math_010","question":"What is 15 percent of 200?","answer":"30","true_quality":10,"answer_type":"correct"}
+{"id":"math_011","question":"What is 25 percent of 80?","answer":"15","true_quality":2,"answer_type":"incorrect"}
+{"id":"math_012","question":"Solve for x: x + 13 = 29.","answer":"x = 16","true_quality":10,"answer_type":"correct"}
+{"id":"math_013","question":"Solve for x: 3x = 21.","answer":"x = 8","true_quality":2,"answer_type":"incorrect"}
+{"id":"math_014","question":"What is the square root of 81?","answer":"9","true_quality":10,"answer_type":"correct"}
+{"id":"math_015","question":"What is the square root of 64?","answer":"6","true_quality":2,"answer_type":"incorrect"}
+{"id":"logic_001","question":"All roses are flowers. Some flowers fade quickly. Does it follow that all roses fade quickly?","answer":"No, it does not follow. The second statement only says some flowers fade quickly.","true_quality":10,"answer_type":"correct"}
+{"id":"logic_002","question":"All cats are mammals. All mammals are animals. Are all cats animals?","answer":"No, cats are not animals because only mammals are animals.","true_quality":1,"answer_type":"incorrect"}
+{"id":"logic_003","question":"If the light is red, cars should stop. The light is red. What should cars do?","answer":"Cars should stop.","true_quality":10,"answer_type":"correct"}
+{"id":"logic_004","question":"If it rains, the ground gets wet. The ground is wet. Can we conclude it rained?","answer":"Yes, it definitely rained.","true_quality":3,"answer_type":"incorrect"}
+{"id":"logic_005","question":"A box has 3 red balls and 7 blue balls. Is a random ball more likely blue or red?","answer":"Blue, because there are more blue balls than red balls.","true_quality":10,"answer_type":"correct"}
+{"id":"logic_006","question":"A jar has 5 green marbles and 5 yellow marbles. What is the chance of drawing green?","answer":"About one half.","true_quality":9,"answer_type":"mostly_correct"}
+{"id":"reading_001","question":"Passage: Maya watered the basil every morning, but skipped Saturday because it rained. What did Maya skip on Saturday?","answer":"She skipped watering the basil.","true_quality":10,"answer_type":"correct"}
+{"id":"reading_002","question":"Passage: Omar packed a coat because the forecast predicted snow. Why did Omar pack a coat?","answer":"Because it was going to be very hot.","true_quality":1,"answer_type":"incorrect"}
+{"id":"reading_003","question":"Passage: The library closes at 6 p.m. on weekdays and 4 p.m. on Sundays. When does it close on Sundays?","answer":"4 p.m.","true_quality":10,"answer_type":"correct"}
+{"id":"reading_004","question":"Passage: Nina put the keys in the blue bowl near the door. Where are the keys?","answer":"Near the door, in the blue bowl.","true_quality":10,"answer_type":"correct"}
+{"id":"reading_005","question":"Passage: The museum is free for children under five. Leo is four. Does Leo need a paid ticket?","answer":"Yes, he needs a paid ticket.","true_quality":2,"answer_type":"incorrect"}
+{"id":"science_001","question":"What gas do plants primarily take in during photosynthesis?","answer":"Carbon dioxide","true_quality":10,"answer_type":"correct"}
+{"id":"science_002","question":"What force pulls objects toward Earth?","answer":"Magnetism","true_quality":2,"answer_type":"incorrect"}
+{"id":"science_003","question":"Is water made of hydrogen and oxygen?","answer":"Yes, water is made of hydrogen and oxygen.","true_quality":10,"answer_type":"correct"}
+{"id":"science_004","question":"What organ pumps blood through the human body?","answer":"The lungs","true_quality":2,"answer_type":"incorrect"}
